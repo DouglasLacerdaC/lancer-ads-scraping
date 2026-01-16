@@ -16,16 +16,14 @@ async function updateNewAds() {
     if (!isValid) return ad
   })
 
-  newData.forEach(async (newAd) => {
-    for (const newAd of newData) {
-      try {
-        await discordService.sendAD(newAd);
-        await delay(3000); // agora funciona
-      } catch (error) {
-        console.warn("❌ Não foi possível enviar o anúncio: ", error);
-      }
+  for (const newAd of newData) {
+    try {
+      await discordService.sendAD(newAd);
+      await delay(2000)
+    } catch (error) {
+      console.warn("❌ Não foi possível enviar o anúncio: ", error);
     }
-  })
+  }
 
   console.warn(`\n🚀 [${newData.length}] novos anúncios encontrados\n`)
 
@@ -34,7 +32,7 @@ async function updateNewAds() {
 
 export const registerJobs = () => {
 
-  cron.schedule("0 */1 * * * *", () => { // Cada 1min
+  cron.schedule("0 */5 * * * *", () => { // Cada 1min
     updateNewAds()
   })
 }
