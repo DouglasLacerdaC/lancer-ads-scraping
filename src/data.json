@@ -475,5 +475,23 @@
     "price": "R$ 63.700",
     "site": "Webmotors",
     "location": "São Paulo (SP)"
+  },
+  {
+    "imageUrl": "https://img.olx.com.br/thumbs700x500/17/172651480417872.webp",
+    "link": "https://sp.olx.com.br/sao-paulo-e-regiao/autos-e-pecas/carros-vans-e-utilitarios/mitsubishi-lancer-2-0-16v-160cv-aut-2015-1471058772",
+    "title": "Mitsubishi Lancer 2.0 16V 160cv Aut. 2015",
+    "km": "96.000 km",
+    "price": "R$ 63.000",
+    "site": "OLX",
+    "location": "Não encontrado"
+  },
+  {
+    "imageUrl": "https://img.olx.com.br/thumbs700x500/13/137662488112652.webp",
+    "link": "https://sp.olx.com.br/sao-paulo-e-regiao/autos-e-pecas/carros-vans-e-utilitarios/mitsubishi-lancer-hl-t-2-0-16v-160cv-aut-2016-1471182366",
+    "title": "Mitsubishi Lancer Hl-t 2.0 16V 160cv Aut. 2016",
+    "km": "85.500 km",
+    "price": "R$ 52.000",
+    "site": "OLX",
+    "location": "Não encontrado"
   }
 ]
